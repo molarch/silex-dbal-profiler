@@ -74,6 +74,13 @@ class DoctrineDataCollector extends DataCollector
         return $this->data['queries'];
     }
 
+    public function reset()
+    {
+        $this->data = [
+            'queries' => [],
+        ];
+    }
+
     public function getTime()
     {
         $time = 0;
