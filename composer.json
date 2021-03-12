@@ -14,6 +14,9 @@
             "role": "Developer"
         }
     ],
+    "replace": {
+        "sorien/silex-dbal-profiler": "self.version"
+    },
     "require": {
         "silexandfriends/silex": "^2.0",
         "silexandfriends/web-profiler": "^2.0"
