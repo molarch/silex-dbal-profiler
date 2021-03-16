@@ -16,7 +16,7 @@
         {% endif %}
     {% endset %}
     {% set text %}
-        {% spaceless %}
+        {% apply spaceless %}
         <div class="sf-toolbar-info-piece">
             <b>Database Queries</b>
             <span class="sf-toolbar-status">{{ collector.querycount }}</span>
@@ -25,7 +25,7 @@
             <b>Query time</b>
             <span>{{ '%0.2f'|format(collector.time * 1000) }} ms</span>
         </div>
-        {% endspaceless %}
+        {% endapply %}
     {% endset %}
     {% include '@WebProfiler/Profiler/toolbar_item.html.twig' with { 'link': profiler_url } %}
 {% endblock %}
