@@ -18,8 +18,8 @@
         "sorien/silex-dbal-profiler": "self.version"
     },
     "require": {
-        "silexandfriends/silex": "^2.0|^3.0",
-        "silexandfriends/web-profiler": "^2.0"
+        "silexandfriends/silex": "^3.0",
+        "silexandfriends/web-profiler": "dev-3.x"
     },
     "autoload": {
         "psr-0": {
@@ -28,7 +28,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.0.x-dev"
+            "dev-master": "3.0.x-dev"
         }
     }    
 }
