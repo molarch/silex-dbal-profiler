@@ -19,7 +19,7 @@
     },
     "require": {
         "silexandfriends/silex": "^3.0",
-        "silexandfriends/web-profiler": "dev-3.x"
+        "silexandfriends/web-profiler": "3.x-dev"
     },
     "autoload": {
         "psr-0": {
