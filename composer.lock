@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "69ad33854c282975e8f8b2a4107efeaf",
+    "content-hash": "db4d1dd0e4ee71de40410d2c12e897ae",
     "packages": [
         {
             "name": "pimple/pimple",
@@ -208,16 +208,16 @@
         },
         {
             "name": "silexandfriends/silex",
-            "version": "v2.4.2",
+            "version": "v2.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SilexAndFriends/Silex.git",
-                "reference": "1008960933f73c480e09507e951c089a297d6502"
+                "reference": "16c802ff0ca269383081f0829d18a4cab00f9f59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SilexAndFriends/Silex/zipball/1008960933f73c480e09507e951c089a297d6502",
-                "reference": "1008960933f73c480e09507e951c089a297d6502",
+                "url": "https://api.github.com/repos/SilexAndFriends/Silex/zipball/16c802ff0ca269383081f0829d18a4cab00f9f59",
+                "reference": "16c802ff0ca269383081f0829d18a4cab00f9f59",
                 "shasum": ""
             },
             "require": {
@@ -235,11 +235,12 @@
             },
             "require-dev": {
                 "doctrine/dbal": "^2.2",
+                "fig/link-util": "^1.1",
                 "monolog/monolog": "^1.4.1",
                 "rector/rector-prefixed": "^0.9.31",
                 "swiftmailer/swiftmailer": "^5",
                 "symfony/asset": "^4.0",
-                "symfony/browser-kit": "^4.0",
+                "symfony/browser-kit": "^4.4",
                 "symfony/config": "^4.0",
                 "symfony/css-selector": "^4.0",
                 "symfony/debug": "^4.0",
@@ -260,12 +261,12 @@
                 "symfony/validator": "^4.0",
                 "symfony/var-dumper": "^4.0",
                 "symfony/web-link": "^4.0",
-                "twig/twig": "^2.0"
+                "twig/twig": "^3"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3.x-dev"
+                    "dev-master": "2.4.x-dev"
                 }
             },
             "autoload": {
@@ -297,9 +298,9 @@
                 "microframework"
             ],
             "support": {
-                "source": "https://github.com/SilexAndFriends/Silex/tree/v2.4.2"
+                "source": "https://github.com/SilexAndFriends/Silex/tree/v2.4.5"
             },
-            "time": "2021-03-12T16:22:40+00:00"
+            "time": "2021-03-19T22:58:35+00:00"
         },
         {
             "name": "silexandfriends/web-profiler",
