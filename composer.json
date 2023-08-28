@@ -1,5 +1,5 @@
 {
-    "name": "silexandfriends/silex-dbal-profiler",
+    "name": "molarch/silex-dbal-profiler",
     "description": "Doctrine DBAL Profiler for Silex",
     "keywords": [
         "silex",
@@ -12,23 +12,38 @@
         {
             "name": "Stanislav Turza",
             "role": "Developer"
+        },
+        {
+            "name": "John Layt",
+            "email": "jlayt@mola.org.uk"
         }
+
     ],
     "replace": {
         "sorien/silex-dbal-profiler": "self.version"
     },
     "require": {
-        "silexandfriends/silex": "^3.0",
-        "silexandfriends/web-profiler": "3.x-dev"
+        "molarch/silex": "dev-master",
+        "molarch/web-profiler": "dev-master"
     },
     "autoload": {
         "psr-0": {
             "Sorien": "src"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/molarch/silex"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/molarch/Silex-WebProfiler"
+        }
+    ],
     "extra": {
         "branch-alias": {
-            "dev-master": "3.0.x-dev"
+            "dev-master": "3.1.x-dev"
         }
     }
 }
